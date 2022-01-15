@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "texto-caramelos";
+    src: url(./textos/JosefinSans-Regular.ttf);
+}
+.barra-nav{
+    background: linear-gradient(to bottom, #ff0000 0%, #96999200 70%);
+    width: 100%;
+    display:grid;
+    grid-template-columns: 60% 40%;
+    
+}
+.url{
+    display: flex;
+    justify-content: space-around;
+    
+} 
+.url-li{
+   list-style: none;
+}
+.url-li:hover{
+    background-color: #ff0000;
+    border-radius: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    display: inline-block;
+    justify-content: flex-end;
+    font-family: "texto-caramelos";
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+   
+}

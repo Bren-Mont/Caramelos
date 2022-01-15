@@ -1,0 +1,41 @@
+body{
+    background-color: #000000;
+    margin: 0px;
+    background-image: url(/imagenes/caramelos1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.musica{
+    display: flex;
+    justify-content: center;
+}
+.tabla{
+    background-color: black;
+    font-size: 20px;
+    color: #f81919;
+    font-family: "texto-caramelos";
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.cabeza td{
+    text-transform: uppercase;
+    padding: 25px;
+}
+.contenido td{
+    padding-left: 10px;
+}
+button{
+    background-color: #000000;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    
+}
+.canciones{
+    color: #f81919;
+    text-transform: lowercase;
+}
+.play{
+    width: 20px;
+    
+}
